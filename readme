@@ -1,0 +1,15 @@
+SMART FILE ORGANIZER 
+This project helps to organize files from a particular folder to different folders based on the file types\
+
+Features :
+- Organizes JPG images into an `Images` folder
+- Organizes MP4 videos into a `Videos` folder
+- Organizes PDF files into a `Documents` folder
+- Organizes MP3 files into a `Music` folder
+- Organizes TXT files into a `TextFiles` folder
+- Organizes ZIP files into a `Compressed` folder
+
+How it works?
+It asks for the folder whose files are supposed to be organized then,
+it then checks the files inside that folder and moves them into separate folders based on their file extension.
+
