@@ -1,15 +1,33 @@
-SMART FILE ORGANIZER 
-This project helps to organize files from a particular folder to different folders based on the file types\
+# Smart File Organizer 📂
 
-Features :
-- Organizes JPG images into an `Images` folder
-- Organizes MP4 videos into a `Videos` folder
-- Organizes PDF files into a `Documents` folder
-- Organizes MP3 files into a `Music` folder
-- Organizes TXT files into a `TextFiles` folder
-- Organizes ZIP files into a `Compressed` folder
+A simple Python desktop application that automatically organizes files into separate folders based on their file type.
 
-How it works?
-It asks for the folder whose files are supposed to be organized then,
-it then checks the files inside that folder and moves them into separate folders based on their file extension.
+## ✨ Features
 
+- Select any folder using a graphical interface
+- Automatically organize files based on their extensions
+- Supports:
+  - `.jpg` → Images
+  - `.mp4` → Videos
+  - `.pdf` → Documents
+  - `.mp3` → Music
+  - `.txt` → TextFiles
+  - `.zip` → Compressed
+- Simple and beginner-friendly GUI
+- Prevents errors when destination folders already exist
+
+## 🛠️ Technologies Used
+
+- Python
+- CustomTkinter
+- Tkinter
+- OS module
+
+## 📁 Project Structure
+
+```text
+Smart File Organizer/
+│
+├── app.py
+├── organizer.py
+└── README.md
